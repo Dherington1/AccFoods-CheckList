@@ -1,6 +1,6 @@
 # AccFoods CheckList 🥩🚚
 
-This is a mobile-friendly checklist app for delivery drivers working with **ACC Foods**. It’s designed to ensure proper van loading, documentation, and route verification before leaving the **US Foods** warehouse. The app is used daily by **ACC Foods** to manage and verify van operations. All form submissions are automatically sent to a connected **Google Sheet** via a Google Apps Script Web App, allowing the company to track departures, deliveries, and potential issues in real time.
+This is a mobile-first checklist app for delivery drivers working with **ACC Foods**. It’s designed primarily for use on smartphones to ensure proper van loading, documentation, and route verification before leaving the **US Foods** warehouse. The app is used daily by **ACC Foods** to manage and verify van operations. All form submissions are automatically sent to a connected **Google Sheet** via a Google Apps Script Web App, allowing the company to track departures, deliveries, and potential issues in real time.
 
 ---
 
