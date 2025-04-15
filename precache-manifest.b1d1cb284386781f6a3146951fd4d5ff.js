@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b40e98a53518e8f9fab1f31d9826715c",
+    "revision": "09e044e6e56ddd62d65bb81b10d99885",
     "url": "/AccFoods-CheckList/index.html"
   },
   {
-    "revision": "612b4cc24947d16abc16",
-    "url": "/AccFoods-CheckList/static/css/main.e0fe1ace.chunk.css"
+    "revision": "b1cba2dfdb097ae4cfe5",
+    "url": "/AccFoods-CheckList/static/css/main.5ea7f735.chunk.css"
   },
   {
     "revision": "2b636c2af5fdddeb09f0",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AccFoods-CheckList/static/js/3.be1b047e.chunk.js"
   },
   {
-    "revision": "612b4cc24947d16abc16",
+    "revision": "b1cba2dfdb097ae4cfe5",
     "url": "/AccFoods-CheckList/static/js/main.a4523b64.chunk.js"
   },
   {
