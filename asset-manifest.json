@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AccFoods-CheckList/static/css/main.c12172c3.chunk.css",
+    "main.css": "/AccFoods-CheckList/static/css/main.e0fe1ace.chunk.css",
     "main.js": "/AccFoods-CheckList/static/js/main.a4523b64.chunk.js",
     "main.js.map": "/AccFoods-CheckList/static/js/main.a4523b64.chunk.js.map",
     "runtime-main.js": "/AccFoods-CheckList/static/js/runtime-main.6367777e.js",
@@ -10,15 +10,15 @@
     "static/js/3.be1b047e.chunk.js": "/AccFoods-CheckList/static/js/3.be1b047e.chunk.js",
     "static/js/3.be1b047e.chunk.js.map": "/AccFoods-CheckList/static/js/3.be1b047e.chunk.js.map",
     "index.html": "/AccFoods-CheckList/index.html",
-    "precache-manifest.ccc51448c9da9200ead3422e6e220d68.js": "/AccFoods-CheckList/precache-manifest.ccc51448c9da9200ead3422e6e220d68.js",
+    "precache-manifest.41b915eed5f5c615c1d1d1d1401dbffc.js": "/AccFoods-CheckList/precache-manifest.41b915eed5f5c615c1d1d1d1401dbffc.js",
     "service-worker.js": "/AccFoods-CheckList/service-worker.js",
-    "static/css/main.c12172c3.chunk.css.map": "/AccFoods-CheckList/static/css/main.c12172c3.chunk.css.map",
+    "static/css/main.e0fe1ace.chunk.css.map": "/AccFoods-CheckList/static/css/main.e0fe1ace.chunk.css.map",
     "static/js/2.f4a51ddc.chunk.js.LICENSE.txt": "/AccFoods-CheckList/static/js/2.f4a51ddc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6367777e.js",
     "static/js/2.f4a51ddc.chunk.js",
-    "static/css/main.c12172c3.chunk.css",
+    "static/css/main.e0fe1ace.chunk.css",
     "static/js/main.a4523b64.chunk.js"
   ]
 }
