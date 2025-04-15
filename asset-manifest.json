@@ -1,28 +1,24 @@
 {
   "files": {
-    "main.css": "/AccFoods-CheckList/static/css/main.8567a667.chunk.css",
-    "main.js": "/AccFoods-CheckList/static/js/main.ab2422ec.chunk.js",
-    "main.js.map": "/AccFoods-CheckList/static/js/main.ab2422ec.chunk.js.map",
-    "runtime-main.js": "/AccFoods-CheckList/static/js/runtime-main.33c84397.js",
-    "runtime-main.js.map": "/AccFoods-CheckList/static/js/runtime-main.33c84397.js.map",
-    "static/css/2.3163f68c.chunk.css": "/AccFoods-CheckList/static/css/2.3163f68c.chunk.css",
-    "static/js/2.4203dd4f.chunk.js": "/AccFoods-CheckList/static/js/2.4203dd4f.chunk.js",
-    "static/js/2.4203dd4f.chunk.js.map": "/AccFoods-CheckList/static/js/2.4203dd4f.chunk.js.map",
-    "static/js/3.b3212e2a.chunk.js": "/AccFoods-CheckList/static/js/3.b3212e2a.chunk.js",
-    "static/js/3.b3212e2a.chunk.js.map": "/AccFoods-CheckList/static/js/3.b3212e2a.chunk.js.map",
+    "main.css": "/AccFoods-CheckList/static/css/main.c12172c3.chunk.css",
+    "main.js": "/AccFoods-CheckList/static/js/main.a4523b64.chunk.js",
+    "main.js.map": "/AccFoods-CheckList/static/js/main.a4523b64.chunk.js.map",
+    "runtime-main.js": "/AccFoods-CheckList/static/js/runtime-main.6367777e.js",
+    "runtime-main.js.map": "/AccFoods-CheckList/static/js/runtime-main.6367777e.js.map",
+    "static/js/2.f4a51ddc.chunk.js": "/AccFoods-CheckList/static/js/2.f4a51ddc.chunk.js",
+    "static/js/2.f4a51ddc.chunk.js.map": "/AccFoods-CheckList/static/js/2.f4a51ddc.chunk.js.map",
+    "static/js/3.be1b047e.chunk.js": "/AccFoods-CheckList/static/js/3.be1b047e.chunk.js",
+    "static/js/3.be1b047e.chunk.js.map": "/AccFoods-CheckList/static/js/3.be1b047e.chunk.js.map",
     "index.html": "/AccFoods-CheckList/index.html",
-    "precache-manifest.5025a576ede74d3a7a3ad3b3dae19c1a.js": "/AccFoods-CheckList/precache-manifest.5025a576ede74d3a7a3ad3b3dae19c1a.js",
+    "precache-manifest.ccc51448c9da9200ead3422e6e220d68.js": "/AccFoods-CheckList/precache-manifest.ccc51448c9da9200ead3422e6e220d68.js",
     "service-worker.js": "/AccFoods-CheckList/service-worker.js",
-    "static/css/2.3163f68c.chunk.css.map": "/AccFoods-CheckList/static/css/2.3163f68c.chunk.css.map",
-    "static/css/main.8567a667.chunk.css.map": "/AccFoods-CheckList/static/css/main.8567a667.chunk.css.map",
-    "static/js/2.4203dd4f.chunk.js.LICENSE.txt": "/AccFoods-CheckList/static/js/2.4203dd4f.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/AccFoods-CheckList/static/media/pacifico-vietnamese-400-normal.dd920cae.woff2"
+    "static/css/main.c12172c3.chunk.css.map": "/AccFoods-CheckList/static/css/main.c12172c3.chunk.css.map",
+    "static/js/2.f4a51ddc.chunk.js.LICENSE.txt": "/AccFoods-CheckList/static/js/2.f4a51ddc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.33c84397.js",
-    "static/css/2.3163f68c.chunk.css",
-    "static/js/2.4203dd4f.chunk.js",
-    "static/css/main.8567a667.chunk.css",
-    "static/js/main.ab2422ec.chunk.js"
+    "static/js/runtime-main.6367777e.js",
+    "static/js/2.f4a51ddc.chunk.js",
+    "static/css/main.c12172c3.chunk.css",
+    "static/js/main.a4523b64.chunk.js"
   ]
 }
