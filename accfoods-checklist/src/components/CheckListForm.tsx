@@ -101,10 +101,11 @@ const CheckListForm = () => {
   
     console.log('** Final Data:', formatted);
     try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycbwO9g8XM19qcNgJ3WT_2PJrLfowD23hFjXXSwVR0gQ-HOv9dDScZu8mGqVfUlgKFpKXLA/exec", {
+      const res = await fetch("https://script.google.com/macros/s/AKfycbwrKWsR0QaV5uGU9jy-TZ76HzNhIw7W9JfsYVOqWZUgg-02U2wqNNEmJg6bnQdpRTI0/exec", {
         method: "POST",
+        redirect: "follow",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "text/plain;charset=utf-8",
         },
         body: JSON.stringify({
           name: firstName,
@@ -117,14 +118,15 @@ const CheckListForm = () => {
           })),
         }),
       });
+      
     
+      const text = await res.text();
       if (!res.ok) {
-        throw new Error("Failed to submit data");
+        throw new Error(`Failed to submit data: ${text}`);
       }
-    
-      console.log("✅ Data sent to Google Sheets!");
+      console.log("✅ Data sent to Google Sheets! Response:", text);
     } catch (err) {
-      console.error("❌ Submission failed:", err);
+      console.error("❌ Submission failed:", err instanceof Error ? err.message : err);
     }
     
     setTimeout(() => {
