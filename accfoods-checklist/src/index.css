@@ -23,29 +23,35 @@ code {
   text-decoration: none;
 }
 .A-inTitle {
-  font-family: 'Pacifico', cursive;
-  font-size: 46px;
+  font-family: 'Comic Neue', 'Fredoka', cursive;
+  font-size: 75px;
   color: #28AF61;
   margin-top: 25px ;
   margin-bottom: 0px;
   padding: 0px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+
 }
 .cc-inTitle {
   color: #342E48;
-  font-size: 38px;
+  font-size: 55px;
   margin-top: 25px;
   margin-bottom: 0px;
   padding: 0px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 .choice-tab {
   display: flex;
   gap: 35px;
   justify-content: center;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Comic Neue', 'Fredoka', cursive;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 .choice-tab-option {
-  
-  font-size: 20px;
+  font-size: 22px;
   position: relative;
   cursor: pointer;
 }
