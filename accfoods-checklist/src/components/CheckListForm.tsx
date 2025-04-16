@@ -101,7 +101,7 @@ const CheckListForm = () => {
   
     console.log('** Final Data:', formatted);
     try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycbwrKWsR0QaV5uGU9jy-TZ76HzNhIw7W9JfsYVOqWZUgg-02U2wqNNEmJg6bnQdpRTI0/exec", {
+      const res = await fetch("https://script.google.com/macros/s/AKfycbxCzJoDuy751zTqfoT0-OmJtx7hOLNXtOCltThM0Mwk8jjrjdbYOC_3yZWJx8ewUByJ/exec", {
         method: "POST",
         redirect: "follow",
         headers: {
