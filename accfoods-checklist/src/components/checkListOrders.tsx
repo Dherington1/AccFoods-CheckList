@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 
   type OrderData = {
-      orderNumber: number;
-      city: string;
-      categories: string[];
+    orderNumber: number;
+    city: string;
+    categories: string[];
   };
   
   type CheckListOrdersProps = {
-      orderIndex: number;
-      onDataChange: (data: OrderData) => void;
-      validation?: { cityMissing: boolean; categoryMissing: boolean };
+    orderIndex: number;
+    onDataChange: (data: OrderData) => void;
+    validation?: { cityMissing: boolean; categoryMissing: boolean };
   };
   
 

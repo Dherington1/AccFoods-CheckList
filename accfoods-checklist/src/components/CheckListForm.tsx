@@ -15,6 +15,8 @@ const CheckListForm = () => {
   const [firstName, setFirstName] = useState('');
   const [vanNumber, setVanNumber] = useState('');
   const [date, setDate] = useState(new Date().toISOString().split('T')[0]);
+  const locationNames = ['Livermore USF', 'Sacramento USF', 'Performance Gilroy', 'Performance Livermore', 'La Mirada USF', 'Corona USF'];
+  const [location, setLocation] = useState(locationNames[0]);
   const [orderCount, setOrderCount] = useState(1);
 
   // for loading success on submit
@@ -119,20 +121,21 @@ const CheckListForm = () => {
 
     // form is full filled out
     setIsSubmitting(true);
-    // const formatted = {
-    //   name: firstName,
-    //   van: vanNumber,
-    //   date,
-    //   numberOfOrders: orderCount.toString(),
-    //   orders: orderDetails.map(order => ({
-    //     city: order.city,
-    //     categories: order.categories
-    //   }))
-    // };
+    const formatted = {
+      name: firstName,
+      van: vanNumber,
+      date,
+      location: location,
+      numberOfOrders: orderCount.toString(),
+      orders: orderDetails.map(order => ({
+        city: order.city,
+        categories: order.categories
+      }))
+    };
   
-    // console.log('** Final Data:', formatted);
+    console.log('** Final Data: ', formatted);
     try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycbxCzJoDuy751zTqfoT0-OmJtx7hOLNXtOCltThM0Mwk8jjrjdbYOC_3yZWJx8ewUByJ/exec", {
+      const res = await fetch("https://script.google.com/macros/s/AKfycbxQM4mHn08D8mKcHxK0bBGsa5-2fGEqp1MIycssEqibToERHaNWmj5P1NAAqw0jjfhE/exec", {
         method: "POST",
         redirect: "follow",
         headers: {
@@ -142,6 +145,7 @@ const CheckListForm = () => {
           name: firstName,
           van: vanNumber,
           date,
+          location: location,
           numberOfOrders: orderCount.toString(),
           orderProducts: orderDetails.map(order => ({
             city: order.city,
@@ -171,8 +175,7 @@ const CheckListForm = () => {
       }, 2000);
     }, 2000);
   };
-  
-  
+
   return (
     <>
       {isSubmitting && (
@@ -234,6 +237,23 @@ const CheckListForm = () => {
                 value={date}
                 onChange={(e) => setDate(e.target.value)} 
               />
+            </div>
+
+            {/* Location */}
+            <div>
+              <h4 className='question-label'>Where did you pick up order? <span className='required'>*</span></h4>
+              <select
+                className='input-box' 
+                value={location}
+                onChange={(e)=> setLocation(e.target.value)}
+              >
+                {locationNames.map((foodDistributor, i) => (
+                  <option key={i} value={foodDistributor}>
+                    {foodDistributor}
+                  </option>
+                ))}
+
+              </select>
             </div>
 
             {/* order number */}
