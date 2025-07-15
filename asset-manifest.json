@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/AccFoods-CheckList/static/css/main.0599c1e9.chunk.css",
-    "main.js": "/AccFoods-CheckList/static/js/main.9fc86802.chunk.js",
-    "main.js.map": "/AccFoods-CheckList/static/js/main.9fc86802.chunk.js.map",
-    "runtime-main.js": "/AccFoods-CheckList/static/js/runtime-main.6367777e.js",
-    "runtime-main.js.map": "/AccFoods-CheckList/static/js/runtime-main.6367777e.js.map",
-    "static/js/2.f4a51ddc.chunk.js": "/AccFoods-CheckList/static/js/2.f4a51ddc.chunk.js",
-    "static/js/2.f4a51ddc.chunk.js.map": "/AccFoods-CheckList/static/js/2.f4a51ddc.chunk.js.map",
-    "static/js/3.be1b047e.chunk.js": "/AccFoods-CheckList/static/js/3.be1b047e.chunk.js",
-    "static/js/3.be1b047e.chunk.js.map": "/AccFoods-CheckList/static/js/3.be1b047e.chunk.js.map",
+    "main.js": "/AccFoods-CheckList/static/js/main.bc09e835.chunk.js",
+    "main.js.map": "/AccFoods-CheckList/static/js/main.bc09e835.chunk.js.map",
+    "runtime-main.js": "/AccFoods-CheckList/static/js/runtime-main.33c84397.js",
+    "runtime-main.js.map": "/AccFoods-CheckList/static/js/runtime-main.33c84397.js.map",
+    "static/js/2.f5438dd6.chunk.js": "/AccFoods-CheckList/static/js/2.f5438dd6.chunk.js",
+    "static/js/2.f5438dd6.chunk.js.map": "/AccFoods-CheckList/static/js/2.f5438dd6.chunk.js.map",
+    "static/js/3.b3212e2a.chunk.js": "/AccFoods-CheckList/static/js/3.b3212e2a.chunk.js",
+    "static/js/3.b3212e2a.chunk.js.map": "/AccFoods-CheckList/static/js/3.b3212e2a.chunk.js.map",
     "index.html": "/AccFoods-CheckList/index.html",
-    "precache-manifest.7af94e1a7d8176bf20efc38f82b6ad40.js": "/AccFoods-CheckList/precache-manifest.7af94e1a7d8176bf20efc38f82b6ad40.js",
+    "precache-manifest.cc71bebe1c69765c5222afd4df8bfbcd.js": "/AccFoods-CheckList/precache-manifest.cc71bebe1c69765c5222afd4df8bfbcd.js",
     "service-worker.js": "/AccFoods-CheckList/service-worker.js",
     "static/css/main.0599c1e9.chunk.css.map": "/AccFoods-CheckList/static/css/main.0599c1e9.chunk.css.map",
-    "static/js/2.f4a51ddc.chunk.js.LICENSE.txt": "/AccFoods-CheckList/static/js/2.f4a51ddc.chunk.js.LICENSE.txt"
+    "static/js/2.f5438dd6.chunk.js.LICENSE.txt": "/AccFoods-CheckList/static/js/2.f5438dd6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6367777e.js",
-    "static/js/2.f4a51ddc.chunk.js",
+    "static/js/runtime-main.33c84397.js",
+    "static/js/2.f5438dd6.chunk.js",
     "static/css/main.0599c1e9.chunk.css",
-    "static/js/main.9fc86802.chunk.js"
+    "static/js/main.bc09e835.chunk.js"
   ]
 }
