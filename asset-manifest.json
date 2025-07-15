@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AccFoods-CheckList/static/css/main.0599c1e9.chunk.css",
-    "main.js": "/AccFoods-CheckList/static/js/main.bc09e835.chunk.js",
-    "main.js.map": "/AccFoods-CheckList/static/js/main.bc09e835.chunk.js.map",
+    "main.js": "/AccFoods-CheckList/static/js/main.bc3b23f1.chunk.js",
+    "main.js.map": "/AccFoods-CheckList/static/js/main.bc3b23f1.chunk.js.map",
     "runtime-main.js": "/AccFoods-CheckList/static/js/runtime-main.33c84397.js",
     "runtime-main.js.map": "/AccFoods-CheckList/static/js/runtime-main.33c84397.js.map",
     "static/js/2.f5438dd6.chunk.js": "/AccFoods-CheckList/static/js/2.f5438dd6.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b3212e2a.chunk.js": "/AccFoods-CheckList/static/js/3.b3212e2a.chunk.js",
     "static/js/3.b3212e2a.chunk.js.map": "/AccFoods-CheckList/static/js/3.b3212e2a.chunk.js.map",
     "index.html": "/AccFoods-CheckList/index.html",
-    "precache-manifest.cc71bebe1c69765c5222afd4df8bfbcd.js": "/AccFoods-CheckList/precache-manifest.cc71bebe1c69765c5222afd4df8bfbcd.js",
+    "precache-manifest.bdc59a17597bcc3754f59531d77fd78b.js": "/AccFoods-CheckList/precache-manifest.bdc59a17597bcc3754f59531d77fd78b.js",
     "service-worker.js": "/AccFoods-CheckList/service-worker.js",
     "static/css/main.0599c1e9.chunk.css.map": "/AccFoods-CheckList/static/css/main.0599c1e9.chunk.css.map",
     "static/js/2.f5438dd6.chunk.js.LICENSE.txt": "/AccFoods-CheckList/static/js/2.f5438dd6.chunk.js.LICENSE.txt"
@@ -19,6 +19,6 @@
     "static/js/runtime-main.33c84397.js",
     "static/js/2.f5438dd6.chunk.js",
     "static/css/main.0599c1e9.chunk.css",
-    "static/js/main.bc09e835.chunk.js"
+    "static/js/main.bc3b23f1.chunk.js"
   ]
 }
