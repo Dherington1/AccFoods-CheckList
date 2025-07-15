@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
 
-    type OrderData = {
-        orderNumber: number;
-        city: string;
-        categories: string[];
-    };
-    
-    type CheckListOrdersProps = {
-        orderIndex: number;
-        onDataChange: (data: OrderData) => void;
-        validation?: { cityMissing: boolean; categoryMissing: boolean };
-    };
+  type OrderData = {
+      orderNumber: number;
+      city: string;
+      categories: string[];
+  };
+  
+  type CheckListOrdersProps = {
+      orderIndex: number;
+      onDataChange: (data: OrderData) => void;
+      validation?: { cityMissing: boolean; categoryMissing: boolean };
+  };
   
 
-    const CheckListOrders: React.FC<CheckListOrdersProps> = ({ orderIndex, onDataChange, validation }) => {
+  const CheckListOrders: React.FC<CheckListOrdersProps> = ({ orderIndex, onDataChange, validation }) => {
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
     const [cityName, setCityName] = useState('');
   

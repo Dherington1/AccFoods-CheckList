@@ -35,7 +35,7 @@ const NavBar = ({setChosenTabForAppFile}: NavBarProps) => {
                     className={choiceTab ? 'choice-tab-option' : 'current-tab choice-tab-option'} 
                     onClick={() => changeCurrentTab(false)}
                 >
-                    FQA
+                    FAQ
                 </h3>
             </div>
         </>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import CheckListOrders from './checkListOrders'
 
 type OrderData = {
@@ -33,6 +33,38 @@ const CheckListForm = () => {
   
   // to reset the form on successful submit
   const [formKey, setFormKey] = useState(0);
+
+  // syncs orderDetails & validation arrays when orderCount changes (ex: adjusting 4 orders to 3)
+  useEffect(() => {
+    // increases or decreases orderDetails based off change
+    setOrderDetails(prev =>
+      prev.length > orderCount
+        ? prev.slice(0, orderCount)
+        : [
+            ...prev,
+            ...Array(orderCount - prev.length).fill({
+              orderNumber: 0,
+              city: '',
+              categories: [],
+            }),
+          ]
+    );
+
+    // adjusts invalidFields.orderDetails to match orderCount
+    setInvalidFields(prev => ({
+      ...prev,
+      orderDetails:
+        prev.orderDetails.length > orderCount
+          ? prev.orderDetails.slice(0, orderCount)
+          : [
+              ...prev.orderDetails,
+              ...Array(orderCount - prev.orderDetails.length).fill({
+                cityMissing: false,
+                categoryMissing: false,
+              }),
+            ],
+    }));
+  }, [orderCount]);
 
   // handles the order information from CheckListOrders.tsx
   const handleOrderDataChange = (index: number, data: OrderData) => {
@@ -87,19 +119,18 @@ const CheckListForm = () => {
 
     // form is full filled out
     setIsSubmitting(true);
-    const formatted = {
-      name: firstName,
-      van: vanNumber,
-      date,
-      numberOfOrders: orderCount.toString(),
-      orders: orderDetails.map(order => ({
-        city: order.city,
-        categories: order.categories
-      }))
-      
-    };
+    // const formatted = {
+    //   name: firstName,
+    //   van: vanNumber,
+    //   date,
+    //   numberOfOrders: orderCount.toString(),
+    //   orders: orderDetails.map(order => ({
+    //     city: order.city,
+    //     categories: order.categories
+    //   }))
+    // };
   
-    console.log('** Final Data:', formatted);
+    // console.log('** Final Data:', formatted);
     try {
       const res = await fetch("https://script.google.com/macros/s/AKfycbxCzJoDuy751zTqfoT0-OmJtx7hOLNXtOCltThM0Mwk8jjrjdbYOC_3yZWJx8ewUByJ/exec", {
         method: "POST",
