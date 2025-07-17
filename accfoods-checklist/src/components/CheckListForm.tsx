@@ -15,7 +15,7 @@ const CheckListForm = () => {
   const [firstName, setFirstName] = useState('');
   const [vanNumber, setVanNumber] = useState('');
   const [date, setDate] = useState(new Date().toISOString().split('T')[0]);
-  const locationNames = ['Livermore USF', 'Sacramento USF', 'Performance Gilroy', 'Performance Livermore', 'La Mirada USF', 'Corona USF'];
+  const locationNames = ['Livermore USF', 'Sacramento USF', 'Performance Gilroy', 'Performance Livermore', 'La Mirada USF', 'Corona USF', 'Reno USF'];
   const [location, setLocation] = useState(locationNames[0]);
   const [orderCount, setOrderCount] = useState(1);
 
